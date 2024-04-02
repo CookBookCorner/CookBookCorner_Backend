@@ -45,4 +45,40 @@ Add `devise-jwt` and `rack-cors` to your Gemfile for JWT authentication and conf
 ```ruby
 gem 'devise-jwt'
 gem 'rack-cors'
+```
+6. **Resource Generation**
+ - The following resources were generated, each with its model, controller, and views (where applicable), along with the routes and migrations:
+     - `Recipe`
+     - `Tag`
+     - `Ingredient`
+     - `RecipeTag` (Join table between recipes and tags)
+     - `RecipeIngredient` (Join table between recipes and ingredients, including quantity)
 
+7. **Database Migrations**
+   - Migrations were run to set up the initial database schema:
+     ```
+     rails db:migrate
+     ```
+## Models and Relationships
+
+- **User**
+  - Has many recipes.
+  - Authentication managed by Devise.
+
+- **Recipe**
+  - Belongs to a user.
+  - Has many tags through RecipeTags.
+  - Has many ingredients through RecipeIngredients.
+  - Supports image uploads via Active Storage.
+
+- **Tag**
+  - Has many recipes through RecipeTags.
+
+- **Ingredient**
+  - Has many recipes through RecipeIngredients.
+
+- **RecipeTag**
+  - Join table for recipes and tags.
+
+- **RecipeIngredient**
+  - Join table for recipes and ingredients, includes quantity.
