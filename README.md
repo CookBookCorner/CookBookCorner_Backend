@@ -1,24 +1,48 @@
-# README
+# Cookbook Corner Backend
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is the backend for the Cookbook Corner app, developed with Ruby on Rails. It features user authentication using Devise and JWT for a secure API experience.
 
-Things you may want to cover:
+## Technologies Used
 
-* Ruby version
+- Ruby on Rails
+- PostgreSQL
+- Devise for authentication
+- JWT for token-based authentication
+- Rack-CORS for handling Cross-Origin Resource Sharing (CORS)
 
-* System dependencies
+## Setup and Configuration
 
-* Configuration
+### Requirements
 
-* Database creation
+To run this project, you will need:
 
-* Database initialization
+- Ruby (version as per `.ruby-version` file)
+- Rails
+- PostgreSQL
 
-* How to run the test suite
+### Steps
 
-* Services (job queues, cache servers, search engines, etc.)
+1. **Creating the Rails Application**
+ - $ rails new cookbook-corner-backend -d postgresql -T
 
-* Deployment instructions
+2. **Database Creation and Setup**
+  - $ rails db:create
 
-* ...
+3. **Adding RSpec for Testing**
+  - $ bundle add rspec-rails
+  - $ rails generate rspec:install
+
+4. **Adding Devise for Authentication**
+  - $ bundle add devise
+  - $ rails generate devise:install
+  - $ rails generate devise User
+  - $ rails db:migrate
+
+5. **JWT and CORS Setup**
+
+Add `devise-jwt` and `rack-cors` to your Gemfile for JWT authentication and configuring CORS for secure cross-origin requests.
+
+```ruby
+gem 'devise-jwt'
+gem 'rack-cors'
+
