@@ -23,20 +23,20 @@ To run this project, you will need:
 ### Steps
 
 1. **Creating the Rails Application**
- $ rails new cookbook-corner-backend -d postgresql -T
+ - $ rails new cookbook-corner-backend -d postgresql -T
 
 2. **Database Creation and Setup**
-  $ rails db:create
+  - $ rails db:create
 
 3. **Adding RSpec for Testing**
-  $ bundle add rspec-rails
-  $ rails generate rspec:install
+  - $ bundle add rspec-rails
+  - $ rails generate rspec:install
 
 4. **Adding Devise for Authentication**
-  $ bundle add devise
-  $ rails generate devise:install
-  $ rails generate devise User
-  $ rails db:migrate
+  - $ bundle add devise
+  - $ rails generate devise:install
+  - $ rails generate devise User
+  - $ rails db:migrate
 
 5. **JWT and CORS Setup**
 
