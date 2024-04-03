@@ -59,6 +59,13 @@ gem 'rack-cors'
      ```
      rails db:migrate
      ```
+7. **Active Storage**
+  - Active Storage has been set up for handling image uploads, specifically for recipes in this application.
+    ```
+    rails active_storage:install
+    rails db:migrate
+    ```
+
 ## Models and Relationships
 
 - **User**
@@ -82,3 +89,4 @@ gem 'rack-cors'
 
 - **RecipeIngredient**
   - Join table for recipes and ingredients, includes quantity.
+
