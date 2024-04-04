@@ -90,3 +90,14 @@ gem 'rack-cors'
 - **RecipeIngredient**
   - Join table for recipes and ingredients, includes quantity.
 
+### JWT Authentication Setup
+
+1. **Generating JWT Secret Key**: A secure key is generated and stored in encrypted credentials for JWT encoding and decoding.
+
+2. **Configuring JWT with Devise**: JWT is configured in `config/initializers/devise.rb` for user authentication, specifying the secret key, handling token dispatch and revocation, and setting token expiration.
+
+3. **JWT Denylist for Token Revocation**: A `JwtDenylist` model is created to manage revoked tokens, enhancing security by invalidating tokens when necessary, such as upon user logout.
+
+4. **Custom Devise Controllers**: Custom registrations and sessions controllers are implemented to manage user signup and login with JSON responses, catering to API-centric applications.
+
+5. **Devise Routes Customization**: Routes are customized for intuitive authentication endpoints (`login`, `logout`, `signup`) and configured to use the custom controllers.
