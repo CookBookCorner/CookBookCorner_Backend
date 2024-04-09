@@ -101,3 +101,35 @@ gem 'rack-cors'
 4. **Custom Devise Controllers**: Custom registrations and sessions controllers are implemented to manage user signup and login with JSON responses, catering to API-centric applications.
 
 5. **Devise Routes Customization**: Routes are customized for intuitive authentication endpoints (`login`, `logout`, `signup`) and configured to use the custom controllers.
+
+## Features
+
+### Recipes Management
+- Users can create, view, update, and delete recipes.
+- Each recipe can be associated with one user and can have multiple tags for categorization.
+
+### Search and Filtering
+- Added functionality to search recipes by name. This feature allows users to quickly find recipes based on keywords in their titles.
+- Implemented filtering by tags. Users can now filter recipes to only show those associated with selected tags, making it easier to discover recipes within specific categories.
+
+### Image Uploads
+- Users can upload images for recipes, enhancing the visual appeal and providing a reference for the expected outcome of the recipe.
+
+### Authentication
+- Integrated user authentication using Devise. Users must sign in to create, update, or delete recipes, adding a layer of security to the application.
+
+### Associations
+- Established model associations between users, recipes, and tags. This includes:
+  - A `belongs_to` association from recipes to users.
+  - A many-to-many association between recipes and tags through the `recipe_tags` join table.
+
+### Validations
+- Added model validations to ensure data integrity for recipes. This includes presence and numericality checks for various recipe attributes.
+
+## Future Enhancements
+- Planning to introduce advanced search options, allowing users to search by ingredients and preparation time.
+- Considering the addition of a rating and review system for recipes, enabling users to provide feedback and rate their favorite recipes.
+
+## Development Notes
+- The application is designed to be database-agnostic, with search features implemented in a way that supports multiple database systems.
+- Focus has been placed on creating a user-friendly API with clear error messages and validations to guide correct data submission.
