@@ -1,5 +1,5 @@
 require 'rails_helper'
-
-RSpec.describe Recipe, type: :model do
+escribe Recipe, type: :model do
   pending "add some examples to (or delete) #{__FILE__}"
+RSpec.d
 end
