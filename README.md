@@ -9,6 +9,7 @@ This project is the backend for the Cookbook Corner app, developed with Ruby on 
 - Devise for authentication
 - JWT for token-based authentication
 - Rack-CORS for handling Cross-Origin Resource Sharing (CORS)
+- Rspect for testing
 
 ## Setup and Configuration
 
@@ -101,6 +102,11 @@ gem 'rack-cors'
 4. **Custom Devise Controllers**: Custom registrations and sessions controllers are implemented to manage user signup and login with JSON responses, catering to API-centric applications.
 
 5. **Devise Routes Customization**: Routes are customized for intuitive authentication endpoints (`login`, `logout`, `signup`) and configured to use the custom controllers.
+
+## Testing
+- Comprehensive test suites have been developed using RSpec to ensure the functionality and reliability of the API endpoints and models.
+- Tests cover model validations, controller actions, and authentication processes.
+- To run the tests, execute $ bundle exec rspec in the terminal.
 
 ## Features
 
