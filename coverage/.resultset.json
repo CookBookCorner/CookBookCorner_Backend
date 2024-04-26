@@ -1,0 +1,440 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/Users/alejandrajaramillo/Desktop/cookbook-corner-project/cookbook-corner-backend/app/models/user.rb": {
+        "lines": [
+          1,
+          null,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null
+        ]
+      },
+      "/Users/alejandrajaramillo/Desktop/cookbook-corner-project/cookbook-corner-backend/app/models/application_record.rb": {
+        "lines": [
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/alejandrajaramillo/Desktop/cookbook-corner-project/cookbook-corner-backend/app/models/jwt_denylist.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/alejandrajaramillo/Desktop/cookbook-corner-project/cookbook-corner-backend/app/helpers/application_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/alejandrajaramillo/Desktop/cookbook-corner-project/cookbook-corner-backend/app/helpers/ingredients_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/alejandrajaramillo/Desktop/cookbook-corner-project/cookbook-corner-backend/app/helpers/recipe_ingredients_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/alejandrajaramillo/Desktop/cookbook-corner-project/cookbook-corner-backend/app/helpers/recipe_tags_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/alejandrajaramillo/Desktop/cookbook-corner-project/cookbook-corner-backend/app/helpers/recipes_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/alejandrajaramillo/Desktop/cookbook-corner-project/cookbook-corner-backend/app/helpers/tags_helper.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/alejandrajaramillo/Desktop/cookbook-corner-project/cookbook-corner-backend/app/controllers/recipes_controller.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          2,
+          0,
+          null,
+          2,
+          null,
+          2,
+          0,
+          null,
+          2,
+          null,
+          null,
+          1,
+          2,
+          null,
+          null,
+          1,
+          4,
+          4,
+          2,
+          null,
+          2,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          null,
+          0,
+          null,
+          null,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null,
+          1,
+          1,
+          2,
+          null,
+          1,
+          4,
+          null,
+          null
+        ]
+      },
+      "/Users/alejandrajaramillo/Desktop/cookbook-corner-project/cookbook-corner-backend/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/alejandrajaramillo/Desktop/cookbook-corner-project/cookbook-corner-backend/app/models/ingredient.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          null
+        ]
+      },
+      "/Users/alejandrajaramillo/Desktop/cookbook-corner-project/cookbook-corner-backend/app/models/recipe_ingredient.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/alejandrajaramillo/Desktop/cookbook-corner-project/cookbook-corner-backend/app/models/recipe.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/alejandrajaramillo/Desktop/cookbook-corner-project/cookbook-corner-backend/app/models/recipe_tag.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null
+        ]
+      },
+      "/Users/alejandrajaramillo/Desktop/cookbook-corner-project/cookbook-corner-backend/app/models/tag.rb": {
+        "lines": [
+          1,
+          1,
+          1,
+          null,
+          1,
+          null
+        ]
+      },
+      "/Users/alejandrajaramillo/Desktop/cookbook-corner-project/cookbook-corner-backend/app/channels/application_cable/channel.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/alejandrajaramillo/Desktop/cookbook-corner-project/cookbook-corner-backend/app/channels/application_cable/connection.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/alejandrajaramillo/Desktop/cookbook-corner-project/cookbook-corner-backend/app/controllers/ingredients_controller.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/alejandrajaramillo/Desktop/cookbook-corner-project/cookbook-corner-backend/app/controllers/recipe_ingredients_controller.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/alejandrajaramillo/Desktop/cookbook-corner-project/cookbook-corner-backend/app/controllers/recipe_tags_controller.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/alejandrajaramillo/Desktop/cookbook-corner-project/cookbook-corner-backend/app/controllers/tags_controller.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0,
+          null,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/alejandrajaramillo/Desktop/cookbook-corner-project/cookbook-corner-backend/app/controllers/users/registrations_controller.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/alejandrajaramillo/Desktop/cookbook-corner-project/cookbook-corner-backend/app/controllers/users/sessions_controller.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/alejandrajaramillo/Desktop/cookbook-corner-project/cookbook-corner-backend/app/jobs/application_job.rb": {
+        "lines": [
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0
+        ],
+        "branches": {
+        }
+      },
+      "/Users/alejandrajaramillo/Desktop/cookbook-corner-project/cookbook-corner-backend/app/mailers/application_mailer.rb": {
+        "lines": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      }
+    },
+    "timestamp": 1714097660
+  }
+}
